@@ -4,24 +4,24 @@ A modular Python-based voice assistant with a graphical user interface. This app
 
 Features
 
-- Voice Recognition: Listen to and process voice commands using speech recognition
-- Text-to-Speech: Audio feedback with customizable speech rate
-- Calculator: Perform mathematical calculations via voice commands
-- Clock Display: Real-time time and date display
-- Conversation Log: Track interaction history
-- Modular Architecture: Easy to extend with new features and commands
+Voice Recognition: Listen to and process voice commands using speech recognition
+Text-to-Speech: Audio feedback with customizable speech rate
+Calculator: Perform mathematical calculations via voice commands
+Clock Display: Real-time time and date display
+Conversation Log: Track interaction history
+Modular Architecture: Easy to extend with new features and commands
 
 Project Structure
 
 
 voice assistant/
-├── main.py                 # Main application entry point
-├── speech_handler.py       # Speech recognition and TTS handling
-├── command_processor.py    # Voice command processing and routing
-├── calculator.py           # Calculator module
-├── clock.py               # Clock and date functionality
-├── ui_components.py       # GUI components (Tkinter)
-└── README.md              # This file
+     main.py                 Main application entry point
+    speech_handler.py       Speech recognition and TTS handling
+    command_processor.py    Voice command processing and routing
+    calculator.py           Calculator module
+    clock.py                Clock and date functionality
+    ui_components.py        GUI components (Tkinter)
+    README.md               This file
 
 
  Requirements
@@ -39,7 +39,7 @@ voice assistant/
    pip install SpeechRecognition pyttsx3
    
 
- Usage
+Usage
 
 Run the application:
 bash
@@ -52,7 +52,7 @@ The GUI will open with the following components:
 - Voice Control Panel: Start/stop voice listening
 - Conversation Log: View command history and responses
 
-## Supported Voice Commands
+Supported Voice Commands
 
 - Time/Clock: "What time is it?" or "Tell me the time"
 - Date: "What is the date?" or "Tell me today's date"
@@ -71,14 +71,14 @@ The GUI will open with the following components:
 
 Configuration
 
-In speech_handler.py, you can adjust the speech rate:
+In 'speech_handler.py', you can adjust the speech rate:
 python
-self.engine.setProperty('rate', 150)  # Default rate is 150
-```
+self.engine.setProperty('rate', 150)   Default rate is 150
+
 
 License
 
 This project is open source and available under the MIT License.
 
-## Author
+ Author
  NEHXMIAH
